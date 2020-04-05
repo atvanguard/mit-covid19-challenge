@@ -1,0 +1,491 @@
+County,State,Population,Area
+Autauga County,Alabama,"54,571","594.44 sq mi
+(1,540 km2)"
+Baldwin County,Alabama,"182,265","1,589.78 sq mi
+(4,118 km2)"
+Barbour County,Alabama,"27,457","884.88 sq mi
+(2,292 km2)"
+Bibb County,Alabama,"22,915","622.58 sq mi
+(1,612 km2)"
+Blount County,Alabama,"57,322","644.78 sq mi
+(1,670 km2)"
+Bullock County,Alabama,"10,914","622.80 sq mi
+(1,613 km2)"
+Butler County,Alabama,"20,947","776.83 sq mi
+(2,012 km2)"
+Calhoun County,Alabama,"118,572","605.87 sq mi
+(1,569 km2)"
+Chambers County,Alabama,"34,215","596.53 sq mi
+(1,545 km2)"
+Cherokee County,Alabama,"25,989","553.70 sq mi
+(1,434 km2)"
+Chilton County,Alabama,"43,643","692.85 sq mi
+(1,794 km2)"
+Choctaw County,Alabama,"13,859","913.50 sq mi
+(2,366 km2)"
+Clarke County,Alabama,"25,833","1,238.46 sq mi
+(3,208 km2)"
+Clay County,Alabama,"13,932","603.96 sq mi
+(1,564 km2)"
+Cleburne County,Alabama,"14,972","560.10 sq mi
+(1,451 km2)"
+Coffee County,Alabama,"49,948","678.97 sq mi
+(1,759 km2)"
+Colbert County,Alabama,"54,428","592.62 sq mi
+(1,535 km2)"
+Conecuh County,Alabama,"13,228","850.16 sq mi
+(2,202 km2)"
+Coosa County,Alabama,"11,539","650.93 sq mi
+(1,686 km2)"
+Covington County,Alabama,"37,765","1,030.46 sq mi
+(2,669 km2)"
+Crenshaw County,Alabama,"13,906","608.84 sq mi
+(1,577 km2)"
+Cullman County,Alabama,"80,406","734.84 sq mi
+(1,903 km2)"
+Dale County,Alabama,"50,251","561.15 sq mi
+(1,453 km2)"
+Dallas County,Alabama,"43,820","978.69 sq mi
+(2,535 km2)"
+DeKalb County,Alabama,"71,109","777.09 sq mi
+(2,013 km2)"
+Elmore County,Alabama,"79,303","618.48 sq mi
+(1,602 km2)"
+Escambia County,Alabama,"38,319","945.08 sq mi
+(2,448 km2)"
+Etowah County,Alabama,"104,430","534.99 sq mi
+(1,386 km2)"
+Fayette County,Alabama,"17,241","627.66 sq mi
+(1,626 km2)"
+Franklin County,Alabama,"31,704","633.82 sq mi
+(1,642 km2)"
+Geneva County,Alabama,"26,790","574.41 sq mi
+(1,488 km2)"
+Greene County,Alabama,"9,045","647.11 sq mi
+(1,676 km2)"
+Hale County,Alabama,"15,760","643.94 sq mi
+(1,668 km2)"
+Henry County,Alabama,"17,302","561.75 sq mi
+(1,455 km2)"
+Houston County,Alabama,"101,547","579.82 sq mi
+(1,502 km2)"
+Jackson County,Alabama,"53,227","1,077.87 sq mi
+(2,792 km2)"
+Jefferson County,Alabama,"658,466","1,111.28 sq mi
+(2,878 km2)"
+Lamar County,Alabama,"14,564","604.85 sq mi
+(1,567 km2)"
+Lauderdale County,Alabama,"92,709","667.70 sq mi
+(1,729 km2)"
+Lawrence County,Alabama,"34,339","690.68 sq mi
+(1,789 km2)"
+Lee County,Alabama,"140,247","607.54 sq mi
+(1,574 km2)"
+Limestone County,Alabama,"82,782","559.94 sq mi
+(1,450 km2)"
+Lowndes County,Alabama,"11,299","715.91 sq mi
+(1,854 km2)"
+Macon County,Alabama,"21,452","608.89 sq mi
+(1,577 km2)"
+Madison County,Alabama,"334,811","801.59 sq mi
+(2,076 km2)"
+Marengo County,Alabama,"21,027","976.88 sq mi
+(2,530 km2)"
+Marion County,Alabama,"30,776","742.29 sq mi
+(1,923 km2)"
+Marshall County,Alabama,"93,019","565.84 sq mi
+(1,466 km2)"
+Mobile County,Alabama,"412,992","1,229.44 sq mi
+(3,184 km2)"
+Monroe County,Alabama,"23,068","1,025.67 sq mi
+(2,656 km2)"
+Montgomery County,Alabama,"229,363","784.25 sq mi
+(2,031 km2)"
+Morgan County,Alabama,"119,490","579.34 sq mi
+(1,500 km2)"
+Perry County,Alabama,"10,591","719.66 sq mi
+(1,864 km2)"
+Pickens County,Alabama,"19,746","881.41 sq mi
+(2,283 km2)"
+Pike County,Alabama,"32,899","672.09 sq mi
+(1,741 km2)"
+Randolph County,Alabama,"22,913","580.55 sq mi
+(1,504 km2)"
+Russell County,Alabama,"52,947","641.14 sq mi
+(1,661 km2)"
+St. Clair County,Alabama,"83,593","631.90 sq mi
+(1,637 km2)"
+Shelby County,Alabama,"195,085","784.93 sq mi
+(2,033 km2)"
+Sumter County,Alabama,"13,763","903.89 sq mi
+(2,341 km2)"
+Talladega County,Alabama,"82,291","736.78 sq mi
+(1,908 km2)"
+Tallapoosa County,Alabama,"41,616","716.52 sq mi
+(1,856 km2)"
+Tuscaloosa County,Alabama,"194,656","1,321.75 sq mi
+(3,423 km2)"
+Walker County,Alabama,"67,023","791.19 sq mi
+(2,049 km2)"
+Washington County,Alabama,"17,581","1,080.21 sq mi
+(2,798 km2)"
+Wilcox County,Alabama,"11,670","888.50 sq mi
+(2,301 km2)"
+Winston County,Alabama,"24,484","612.98 sq mi
+(1,588 km2)"
+Alcona County,Michigan,"10,942","1,791 sq mi
+(4,639 km2)"
+Alger County,Michigan,"9,601","5,049 sq mi
+(13,077 km2)"
+Allegan County,Michigan,"111,408","1,833 sq mi
+(4,747 km2)"
+Alpena County,Michigan,"30,000","1,695 sq mi
+(4,390 km2)"
+Antrim County,Michigan,"23,598","602 sq mi
+(1,559 km2)"
+Arenac County,Michigan,"15,899","681 sq mi
+(1,764 km2)"
+Baraga County,Michigan,"8,860","1,069 sq mi
+(2,769 km2)"
+Barry County,Michigan,"59,173","577 sq mi
+(1,494 km2)"
+Bay County,Michigan,"107,771","631 sq mi
+(1,634 km2)"
+Benzie County,Michigan,"17,525","860 sq mi
+(2,227 km2)"
+Berrien County,Michigan,"156,813","1,581 sq mi
+(4,095 km2)"
+Branch County,Michigan,"45,248","519 sq mi
+(1,344 km2)"
+Calhoun County,Michigan,"136,146","718 sq mi
+(1,860 km2)"
+Cass County,Michigan,"52,293","508 sq mi
+(1,316 km2)"
+Charlevoix County,Michigan,"25,949","1,391 sq mi
+(3,603 km2)"
+Cheboygan County,Michigan,"26,152","885 sq mi
+(2,292 km2)"
+Chippewa County,Michigan,"38,520","2,698 sq mi
+(6,988 km2)"
+Clare County,Michigan,"30,926","575 sq mi
+(1,489 km2)"
+Clinton County,Michigan,"75,382","575 sq mi
+(1,489 km2)"
+Crawford County,Michigan,"14,074","563 sq mi
+(1,458 km2)"
+Delta County,Michigan,"37,069","1,992 sq mi
+(5,159 km2)"
+Dickinson County,Michigan,"26,168","777 sq mi
+(2,012 km2)"
+Eaton County,Michigan,"107,759","579 sq mi
+(1,500 km2)"
+Emmet County,Michigan,"32,694","882 sq mi
+(2,284 km2)"
+Genesee County,Michigan,"425,790","649 sq mi
+(1,681 km2)"
+Gladwin County,Michigan,"25,692","516 sq mi
+(1,336 km2)"
+Gogebic County,Michigan,"16,427","1,476 sq mi
+(3,823 km2)"
+Grand Traverse County,Michigan,"86,986","601 sq mi
+(1,557 km2)"
+Gratiot County,Michigan,"42,476","572 sq mi
+(1,481 km2)"
+Hillsdale County,Michigan,"46,688","607 sq mi
+(1,572 km2)"
+Houghton County,Michigan,"36,628","1,502 sq mi
+(3,890 km2)"
+Huron County,Michigan,"33,118","2,136 sq mi
+(5,532 km2)"
+Ingham County,Michigan,"280,895","561 sq mi
+(1,453 km2)"
+Ionia County,Michigan,"63,905","580 sq mi
+(1,502 km2)"
+Iosco County,Michigan,"25,887","1,891 sq mi
+(4,898 km2)"
+Iron County,Michigan,"11,817","1,211 sq mi
+(3,136 km2)"
+Isabella County,Michigan,"70,311","578 sq mi
+(1,497 km2)"
+Jackson County,Michigan,"160,248","724 sq mi
+(1,875 km2)"
+Kalamazoo County,Michigan,"250,331","580 sq mi
+(1,502 km2)"
+Kalkaska County,Michigan,"17,153","571 sq mi
+(1,479 km2)"
+Kent County,Michigan,"602,622","872 sq mi
+(2,258 km2)"
+Keweenaw County,Michigan,"2,156","5,966 sq mi
+(15,452 km2)"
+Lake County,Michigan,"11,539","575 sq mi
+(1,489 km2)"
+Lapeer County,Michigan,"88,319","663 sq mi
+(1,717 km2)"
+Leelanau County,Michigan,"21,708","2,532 sq mi
+(6,558 km2)"
+Lenawee County,Michigan,"99,892","761 sq mi
+(1,971 km2)"
+Livingston County,Michigan,"180,967","585 sq mi
+(1,515 km2)"
+Luce County,Michigan,"6,631","1,912 sq mi
+(4,952 km2)"
+Mackinac County,Michigan,"11,113","2,101 sq mi
+(5,442 km2)"
+Macomb County,Michigan,"840,978","570 sq mi
+(1,476 km2)"
+Manistee County,Michigan,"24,733","1,281 sq mi
+(3,318 km2)"
+Marquette County,Michigan,"67,077","3,425 sq mi
+(8,871 km2)"
+Mason County,Michigan,"28,705","1,242 sq mi
+(3,217 km2)"
+Mecosta County,Michigan,"42,798","571 sq mi
+(1,479 km2)"
+Menominee County,Michigan,"24,029","1,338 sq mi
+(3,465 km2)"
+Midland County,Michigan,"83,629","528 sq mi
+(1,368 km2)"
+Missaukee County,Michigan,"14,849","574 sq mi
+(1,487 km2)"
+Monroe County,Michigan,"152,021","680 sq mi
+(1,761 km2)"
+Montcalm County,Michigan,"63,342","721 sq mi
+(1,867 km2)"
+Montmorency County,Michigan,"9,765","562 sq mi
+(1,456 km2)"
+Muskegon County,Michigan,"172,188","1,459 sq mi
+(3,779 km2)"
+Newaygo County,Michigan,"48,460","861 sq mi
+(2,230 km2)"
+Oakland County,Michigan,"1,202,362","908 sq mi
+(2,352 km2)"
+Oceana County,Michigan,"26,570","1,307 sq mi
+(3,385 km2)"
+Ogemaw County,Michigan,"21,699","575 sq mi
+(1,489 km2)"
+Ontonagon County,Michigan,"6,780","3,741 sq mi
+(9,689 km2)"
+Osceola County,Michigan,"23,528","573 sq mi
+(1,484 km2)"
+Oscoda County,Michigan,"8,640","572 sq mi
+(1,481 km2)"
+Otsego County,Michigan,"24,164","526 sq mi
+(1,362 km2)"
+Ottawa County,Michigan,"263,801","1,632 sq mi
+(4,227 km2)"
+Presque Isle County,Michigan,"13,376","2,573 sq mi
+(6,664 km2)"
+Roscommon County,Michigan,"24,449","580 sq mi
+(1,502 km2)"
+Saginaw County,Michigan,"200,169","816 sq mi
+(2,113 km2)"
+St. Clair County,Michigan,"163,040","837 sq mi
+(2,168 km2)"
+St. Joseph County,Michigan,"61,295","521 sq mi
+(1,349 km2)"
+Sanilac County,Michigan,"43,114","1,590 sq mi
+(4,118 km2)"
+Schoolcraft County,Michigan,"8,485","1,884 sq mi
+(4,880 km2)"
+Shiawassee County,Michigan,"70,648","541 sq mi
+(1,401 km2)"
+Tuscola County,Michigan,"55,729","914 sq mi
+(2,367 km2)"
+Van Buren County,Michigan,"76,258","1,090 sq mi
+(2,823 km2)"
+Washtenaw County,Michigan,"344,791","723 sq mi
+(1,873 km2)"
+Wayne County,Michigan,"1,820,584","672 sq mi
+(1,740 km2)"
+Wexford County,Michigan,"32,735","576 sq mi
+(1,492 km2)"
+Anderson County,Tennessee,"75,129","338 sq mi
+(875 km2)"
+Bedford County,Tennessee,"45,058","474 sq mi
+(1,228 km2)"
+Benton County,Tennessee,"16,489","394 sq mi
+(1,020 km2)"
+Bledsoe County,Tennessee,"12,876","406 sq mi
+(1,052 km2)"
+Blount County,Tennessee,"123,010","559 sq mi
+(1,448 km2)"
+Bradley County,Tennessee,"98,963","329 sq mi
+(852 km2)"
+Campbell County,Tennessee,"40,716","480 sq mi
+(1,243 km2)"
+Cannon County,Tennessee,"13,801","266 sq mi
+(689 km2)"
+Carroll County,Tennessee,"28,522","599 sq mi
+(1,551 km2)"
+Carter County,Tennessee,"57,424","341 sq mi
+(883 km2)"
+Cheatham County,Tennessee,"39,105","303 sq mi
+(785 km2)"
+Chester County,Tennessee,"17,131","289 sq mi
+(749 km2)"
+Claiborne County,Tennessee,"32,213","434 sq mi
+(1,124 km2)"
+Clay County,Tennessee,"7,861","236 sq mi
+(611 km2)"
+Cocke County,Tennessee,"35,662","434 sq mi
+(1,124 km2)"
+Coffee County,Tennessee,"52,796","429 sq mi
+(1,111 km2)"
+Crockett County,Tennessee,"14,586","265 sq mi
+(686 km2)"
+Cumberland County,Tennessee,"56,053","682 sq mi
+(1,766 km2)"
+Davidson County,Tennessee,"626,681","502 sq mi
+(1,300 km2)"
+Decatur County,Tennessee,"11,757","333 sq mi
+(862 km2)"
+DeKalb County,Tennessee,"18,723","304 sq mi
+(787 km2)"
+Dickson County,Tennessee,"49,666","490 sq mi
+(1,269 km2)"
+Dyer County,Tennessee,"38,335","510 sq mi
+(1,321 km2)"
+Fayette County,Tennessee,"38,412","705 sq mi
+(1,826 km2)"
+Fentress County,Tennessee,"17,959","499 sq mi
+(1,292 km2)"
+Franklin County,Tennessee,"41,052","553 sq mi
+(1,432 km2)"
+Gibson County,Tennessee,"49,683","603 sq mi
+(1,562 km2)"
+Giles County,Tennessee,"29,485","611 sq mi
+(1,582 km2)"
+Grainger County,Tennessee,"22,657","280 sq mi
+(725 km2)"
+Greene County,Tennessee,"68,831","622 sq mi
+(1,611 km2)"
+Grundy County,Tennessee,"13,703","361 sq mi
+(935 km2)"
+Hamblen County,Tennessee,"62,544","161 sq mi
+(417 km2)"
+Hamilton County,Tennessee,"336,463","543 sq mi
+(1,406 km2)"
+Hancock County,Tennessee,"6,819","222 sq mi
+(575 km2)"
+Hardeman County,Tennessee,"27,253","668 sq mi
+(1,730 km2)"
+Hardin County,Tennessee,"26,026","578 sq mi
+(1,497 km2)"
+Hawkins County,Tennessee,"56,833","487 sq mi
+(1,261 km2)"
+Haywood County,Tennessee,"18,787","533 sq mi
+(1,380 km2)"
+Henderson County,Tennessee,"27,769","520 sq mi
+(1,347 km2)"
+Henry County,Tennessee,"32,330","562 sq mi
+(1,456 km2)"
+Hickman County,Tennessee,"24,690","613 sq mi
+(1,588 km2)"
+Houston County,Tennessee,"8,426","200 sq mi
+(518 km2)"
+Humphreys County,Tennessee,"18,538","532 sq mi
+(1,378 km2)"
+Jackson County,Tennessee,"11,638","309 sq mi
+(800 km2)"
+Jefferson County,Tennessee,"51,407","274 sq mi
+(710 km2)"
+Johnson County,Tennessee,"18,244","299 sq mi
+(774 km2)"
+Knox County,Tennessee,"432,226","509 sq mi
+(1,318 km2)"
+Lake County,Tennessee,"7,832","163 sq mi
+(422 km2)"
+Lauderdale County,Tennessee,"27,815","470 sq mi
+(1,217 km2)"
+Lawrence County,Tennessee,"41,869","617 sq mi
+(1,598 km2)"
+Lewis County,Tennessee,"12,161","282 sq mi
+(730 km2)"
+Lincoln County,Tennessee,"33,361","570 sq mi
+(1,476 km2)"
+Loudon County,Tennessee,"48,556","229 sq mi
+(593 km2)"
+Macon County,Tennessee,"22,248","307 sq mi
+(795 km2)"
+Madison County,Tennessee,"98,294","557 sq mi
+(1,443 km2)"
+Marion County,Tennessee,"28,237","500 sq mi
+(1,295 km2)"
+Marshall County,Tennessee,"30,617","375 sq mi
+(971 km2)"
+Maury County,Tennessee,"80,956","613 sq mi
+(1,588 km2)"
+McMinn County,Tennessee,"52,266","430 sq mi
+(1,114 km2)"
+McNairy County,Tennessee,"26,075","560 sq mi
+(1,450 km2)"
+Meigs County,Tennessee,"11,753","195 sq mi
+(505 km2)"
+Monroe County,Tennessee,"44,519","635 sq mi
+(1,645 km2)"
+Montgomery County,Tennessee,"172,331","539 sq mi
+(1,396 km2)"
+Moore County,Tennessee,"6,362","129 sq mi
+(334 km2)"
+Morgan County,Tennessee,"21,987","522 sq mi
+(1,352 km2)"
+Obion County,Tennessee,"31,807","545 sq mi
+(1,412 km2)"
+Overton County,Tennessee,"22,083","433 sq mi
+(1,121 km2)"
+Perry County,Tennessee,"7,915","415 sq mi
+(1,075 km2)"
+Pickett County,Tennessee,"5,077","163 sq mi
+(422 km2)"
+Polk County,Tennessee,"16,825","435 sq mi
+(1,127 km2)"
+Putnam County,Tennessee,"72,321","401 sq mi
+(1,039 km2)"
+Rhea County,Tennessee,"31,809","316 sq mi
+(818 km2)"
+Roane County,Tennessee,"54,181","361 sq mi
+(935 km2)"
+Robertson County,Tennessee,"66,283","477 sq mi
+(1,235 km2)"
+Rutherford County,Tennessee,"262,604","619 sq mi
+(1,603 km2)"
+Scott County,Tennessee,"22,228","532 sq mi
+(1,378 km2)"
+Sequatchie County,Tennessee,"14,112","266 sq mi
+(689 km2)"
+Sevier County,Tennessee,"89,889","592 sq mi
+(1,533 km2)"
+Shelby County,Tennessee,"927,644","755 sq mi
+(1,955 km2)"
+Smith County,Tennessee,"19,166","314 sq mi
+(813 km2)"
+Stewart County,Tennessee,"13,324","458 sq mi
+(1,186 km2)"
+Sullivan County,Tennessee,"156,823","413 sq mi
+(1,070 km2)"
+Sumner County,Tennessee,"160,645","529 sq mi
+(1,370 km2)"
+Tipton County,Tennessee,"61,081","459 sq mi
+(1,189 km2)"
+Trousdale County,Tennessee,"7,870","114 sq mi
+(295 km2)"
+Unicoi County,Tennessee,"18,313","186 sq mi
+(482 km2)"
+Union County,Tennessee,"19,109","224 sq mi
+(580 km2)"
+Van Buren County,Tennessee,"5,548","247 sq mi
+(640 km2)"
+Warren County,Tennessee,"39,839","433 sq mi
+(1,121 km2)"
+Washington County,Tennessee,"122,979","326 sq mi
+(844 km2)"
+Wayne County,Tennessee,"17,021","734 sq mi
+(1,901 km2)"
+Weakley County,Tennessee,"35,021","580 sq mi
+(1,502 km2)"
+White County,Tennessee,"25,841","377 sq mi
+(976 km2)"
+Williamson County,Tennessee,"202,686","582 sq mi
+(1,507 km2)"
+Wilson County,Tennessee,"113,993","571 sq mi
+(1,479 km2)"
