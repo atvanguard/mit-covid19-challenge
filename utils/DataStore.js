@@ -7,12 +7,7 @@ class DataStore {
   async init() {
     await this.processData()
     // Write scores to file
-    // let w = 'County,State,icu_score,income_score,population_score,vulnerability\n'
-    // Object.keys(this.scores).forEach(county => {
-    //   const c = this.scores[county]
-    //   w += `${county},${c.state},${c.icu_score},${c.income_score},${c.population_score},${c.vulnerability}\n`
-    // })
-    // fs.writeFileSync('./data/generated_scores.csv', w)
+    this.writeToFile()
   }
 
   async processData() {
@@ -30,6 +25,7 @@ class DataStore {
       population[state] = population[state] || 0
       population[state] += pop
     })
+    console.log({ population: population['Mobile'] })
 
     const projections = await parseCsv('./data/Hospitalization_all_locs.csv')
     const _projections = {} // state level
@@ -50,6 +46,22 @@ class DataStore {
       _projections[state].totalPatiens = parseFloat(_projections[state].daily.reduce(reducer))
     })
 
+    let countyArea = await parseCsv('./data/county_area.csv')
+    const density = {}
+    countyArea.forEach(c => {
+      const county = c.County.slice(0, c.County.indexOf(" County"))
+      density[county] = parseFloat(c.Population.replace(',', '')) / parseInt(c.Area.slice(0, c.Area.indexOf("sq")).replace(',', ''))
+      if (county == 'Mobile') {
+        console.log(c)
+        console.log({
+          pop: parseFloat(c.Population.replace(',', '')),
+          area: parseInt(c.Area.slice(0, c.Area.indexOf("sq")).replace(',', '')),
+          density: density[county]
+        })
+      }
+    })
+    // console.log({ density: density['Mobile'] })
+
     let icuBeds = await parseCsv('./data/ICU_BEDS_COUNTY.csv')
     const _icuBeds = {}
     icuBeds.forEach(i => {
@@ -57,6 +69,7 @@ class DataStore {
       if (isNaN(beds)) return
       _icuBeds[i.COUNTY] = beds
     })
+    console.log({ beds: _icuBeds['Mobile'] })
     this.scores = {} // county level
     results.forEach(r => {
       try {
@@ -65,8 +78,9 @@ class DataStore {
         const infection = _projections[state].totalPatiens * population[county] / population[state]
         this.scores[county] = this.scores[county] || { state }
         this.scores[county].icu_score = parseFloat(_icuBeds[county] || 0) * _projections[state].daily.length / infection
-        this.scores[county].income = r['Median household income'].slice(1).replace(',', '')
-        this.scores[county].density = parseFloat(1) / r['Density'] // because higher the density, lower the score
+        this.scores[county].income = parseInt(r['Median household income'].slice(1).replace(',', ''))
+        this.scores[county].density = density[county] || r['Density']
+        if (county == 'Mobile') console.log({ income: this.scores[county].income })
       } catch(e) {
         // console.log(e)
         // console.log(r)
@@ -95,13 +109,37 @@ class DataStore {
     Object.keys(this.scores).forEach(county => {
       this.scores[county].icu_score = (this.scores[county].icu_score - range.icu_score.min) / (range.icu_score.max - range.icu_score.min)
       this.scores[county].income_score = (this.scores[county].income - range.income.min) / (range.income.max - range.income.min)
-      this.scores[county].population_score = (this.scores[county].density - range.density.min) / (range.density.max - range.density.min)
-      this.scores[county].vulnerability = (this.scores[county].icu_score + this.scores[county].income_score + this.scores[county].population_score) / 3
+      // because higher the density, lower the score
+      this.scores[county].population_score = 1 - ((this.scores[county].density - range.density.min) / (range.density.max - range.density.min))
+      // Want to reflect high vulnerability for highly vulnerable areas
+      this.scores[county].vulnerability = 1 - ((this.scores[county].icu_score + this.scores[county].income_score + this.scores[county].population_score) / 3)
     })
   }
 
   getAllStateData() {
     return this.scores
+  }
+
+  writeToFile() {
+    const data = { Alabama: [], Michigan: [], Tennessee: [] }
+    Object.keys(this.scores).forEach(county => {
+      const c = this.scores[county]
+      if (!Object.keys(data).includes(c.state)) return
+      data[c.state].push(county)
+    })
+
+    let w = 'County,State,icu_score,income_score,population_score,vulnerability\n'
+    Object.keys(data).forEach(state => {
+      data[state] = data[state].sort((a, b) => {
+        if (this.scores[a].vulnerability > this.scores[b].vulnerability) return -1
+        return 1
+      }).slice(0, 3).forEach(county => {
+        const c = this.scores[county]
+        w += `${county},${c.state},${c.icu_score},${c.income_score},${c.population_score},${c.vulnerability}\n`
+      })
+    })
+    console.log(w)
+    fs.writeFileSync('./data/generated_scores.csv', w)
   }
 }
 
